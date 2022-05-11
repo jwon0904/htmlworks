@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            text-align: center;
+            
+            width: 500px;
+            border-collapse: collapse;
+            /* caption-side: top; */
+            /* 캡션의 위치는 - bottom(아래쪽)*/
+        }
+        tr, td{
+            border: 1px solid black;
+            
+            height: 30px;
+            
+        
+        }
+        caption{
+            text-align: center;
+            margin: 10px;
+        }
+        .a1{
+            
+            font-weight: bold;
+        }
+        .a2{
+            font-weight: bold;
+        }
+    
+        thead, tfoot{
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>제주특별자치도 학교현황</caption>
+        <thead class="a1">
+        <tr>
+            <td>구분</td>
+            <td>학교수</td>
+            <td>학생수</td>
+            <td>교원수</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="a2">초등학교</td>
+            <td>111</td>
+            <td>37,686</td>
+            <td>2,632</td>
+        </tr>
+        <tr>
+            <td class="a2">중학교</td>
+            <td>44</td>
+            <td>21,274</td>
+            <td>1,433</td>
+        </tr>
+        <tr>
+            <td class="a2">고등학교</td>
+            <td>29</td>
+            <td>22,019</td>
+            <td>1,433</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td class="a1">합계</td>
+            <td>184</td>
+            <td>80,979</td>
+            <td>8,956</td>
+        </tr>
+        </tfoot>
+    </table>            
+
+        </table>
+</body>
+</html>

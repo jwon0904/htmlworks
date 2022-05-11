@@ -1,0 +1,142 @@
+https://github.com/kiyongee2/html_css_pdf
+https://github.com/jwon0904/htmlworks
+cmd->cd c:/test
+git init
+c:\test>git config --global user.name "jwon0904"
+git 다운방법 -> git다운로드 검색
+<table>-테이블<표>
+<form>-폼(양식)
+
+스타일 태그
+ <style>
+       태그{
+              속성: 속성값; 
+              속성: 속성값; 
+               ....
+         }
+ </style>
+
+하이퍼링크 <nav>
+                        <a></a>
+                  </nav>
+
+
+
+색상을 표현하는 방법
+1. 기본 색상 - black, white 등 216개
+2. rgb(255, 255, 255) - white
+3. 16진수 표기법 - #ffffff(#fff)
+
+
+줄간격 스타일
+line-height: 2em; (글자 1개 크기 16px)
+글 굵기
+font-weight
+<style>
+   p{
+      line-heght: 2; 문단간격
+      font-size 글자 사이즈
+      font-family 글자체
+      text-decaration 밑줄 제거
+      text-align: left,center,right,justify(양쪽 정렬);
+      }
+
+표만들기
+<caption></caption> 제목
+<table>
+ <tr>
+     <td></td>
+
+</table>
+
+table>tr*2>td*3
+
+colspan 열 합치기
+rowspan 행 합치기
+
+vertical-align : top,middle,bottom 세로정렬(수직)
+class는 .
+id는 #
+
+여백
+바깥여백 - margin
+테두리-border
+안쪽여백 - padding
+
+rgba(255, 0 , 0, alpha=투명도)
+1- 불투명, 0은 투명
+
+텍스트에 그림자 효과
+text-shadow : <가로><세로><번짐정도><색상>
+
+배경 background-image: url('image');
+        background-repeat: no-repeat;
+        background-position: left right center
+        background-size: 000px, 
+                                       cover(이미지가 요소를 꽉 채우고 나머지가 잘림),
+                                       contain(전체 비율로 축소)
+
+background: url() repeat position
+top > right > bottom > left
+
+background: url("") no-repeat fixed(이미지 고정) right top skyblue
+
+박스 모델(box model)
+기본 속성-너비(width), 높이(height)
+div- width, height
+
+개체 = 객체 = 사물
+도형(사각형, 오각형)
+이미지, 영상, 텍스트
+
+여백, 레이아웃(배치)
+
+div 박스는 블록 레벨(block)-수직으로 배치된다
+마진 중첩 - 위 마진과 아래 마진이 서로 만날때 큰 마진값으로 합쳐짐
+
+테두리(border)- 테두리 기준
+바깥 - 마진, 안쪽-패딩(padding)
+border-radius - 모서리를 둥글게 처리
+border-radius 50% (원)
+
+패딩(padding) - 콘텐츠 영역과 테두리의 안쪽 여백
+
+전체 선택자('*') 마진 초기화
+*{margin: 0; padding: 0;}
+
+cd c:/htmlworks
+htmlworks>dir
+git init
+git config --global user.name "jwon0904"
+git config --global user.email "jwon0904@naver.com"
+git add
+git status
+git commit -m "이름"
+git branch -M main
+git remote add origin https://github.com/jwon0904/tset.git
+git push -u origin main
+
+파일 가져올때 git clone
+
+1. git software 설치
+2. 깃허브 계정 만들기
+
+git init - 깃 저장소 생성(local)
+git add .
+git commit -m "up"
+
+git remote add origin 본인원격저장소주소
+git push -u origin main
+
+-원격에서 자료 다운로드 방법-
+git clone 원격저장소주소
+
+
+앵커 기능
+한 페이지 안에서 이동하는 앵커만들기
+
+<태그 id="앵커 이름">텍스트 or 이미지 </태그>
+
+<a href="#앵커 이름">텍스트 or 이미지 </a>
+
+ul li a{text-decoration: none; color: black}

@@ -1,0 +1,35 @@
+#container{
+    margin: auto;
+    width: 600px;
+    height: 700px;
+    border-style: solid;
+    background: url("/images/mic.png") no-repeat right bottom;
+    border-width: 3px 15px;
+    border-color: #ccc
+
+}
+
+h1{
+    color: white;
+    width: 550px;
+    background: green;
+    text-align: center;
+    margin: 20px auto;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+
+h3{
+    color: red;
+    margin-left: 20px;
+}
+#container ul{
+    list-style: none;
+}
+
+#container ul li{
+    line-height: 50px;
+}

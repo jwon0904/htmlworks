@@ -1,0 +1,35 @@
+git 명령어
+cd - 디렉터리(폴더) 이동
+dir- 파일이나 디렉터리 목록보기
+
+display
+블록(block) 레벨 요소 - div, p, h
+인라인(inline) 레벨 요소 - img, span
+display - inline, none, block
+dispaly - flex
+
+이미지 공간 삭제
+display : none
+공간은 그대로 이미지 숨김
+visibility : hidden
+
+git clone 원격저장소
+두번째 데이터 가져오기
+git pull
+
+header
+section
+footer
+
+form
+fieldset
+legend
+label
+input type="type" name="?" value="?"
+button type="submit"
+placeholder
+
+한줄
+<input type="text">
+여러줄
+<textarea></textarea>

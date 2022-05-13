@@ -1,0 +1,14 @@
+객체(개체) 배치
+1. display : inline, block, inline-block, none, flex
+   일률적으로 행(row)과 열(column)에 배치하는 경우
+
+2. float : left, right (왼쪽,오른쪽으로 배치하는 경우-속성 유지)
+   clear : both (해제)
+
+3.positon - absolut(완적 독립), relative, fixed
+
+구글웹폰트 - font-family:merienda
+나눔체
+영어로 검색 - nanum(나눔체)
+1. html <link>태그로 연결
+2. css에 적용 - @import

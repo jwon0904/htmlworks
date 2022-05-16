@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#container{width: 1200px; margin: 0 auto;}
+#container h1{width: 100%; color: #fff;}
+#header{height: 100px; background: skyblue; padding: 10px;}
+#left-aside{width: 200px; height: 600px; background: lightpink; float: left;}
+#section{width: 800px; height: 600px; background: lightgray; float: left;}
+#right-aside{width: 200px; height: 600px; background: lightpink; float: right;}
+#footer{width: 100%; height: 100px; background: lightskyblue; float: 1eft; clear: both;}
+
+

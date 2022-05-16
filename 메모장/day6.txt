@@ -1,0 +1,43 @@
+마크업(markup)언어
+- html, css
+
+프로그래밍 언어
+-
+
+
+
+
+<img usemap="#맵이름">
+    <area shap="rect">  
+<map name="맵이름">
+</map>
+
+배치
+float : left right
+clear : left right both 
+
+position : absolute | relative | fixed
+
+overflow 정리
+박스의 내용이 더 길때 어떻게 보일지를 결정
+overflow : visible | hidden | auto
+
+html 4
+div id=header
+
+html 5
+header
+section aside
+footer adress
+
+
+<iframe>내,외부 html파일</iframe> 
+
+
+프로젝트(웹 사이트)
+이름 - dream-jeju
+메인페이지(인덱스)
+제주여행
+레드향소개
+Q&A(질문/답변)
+About me(자기소개)

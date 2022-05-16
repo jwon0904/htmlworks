@@ -1,0 +1,13 @@
+마크업(markup)언어
+- html, css
+
+프로그래밍 언어
+-
+
+
+
+
+<img usemap="#맵이름">
+    <area shap="rect">  
+<map name="맵이름">
+</map>

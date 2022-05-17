@@ -1,0 +1,17 @@
+seletor(선택자)
+태그, id, class, *
+다양한 선택자
+
+h1 > p - 자식 선택자
+h1 + p - 인접 연결 형제 선택자
+
+[속성] 선택자
+input[type="submit"], input[type="reset"]{}
+
+
+
+
+!important
+인라인(styl="")
+id 선택자
+class 선택자

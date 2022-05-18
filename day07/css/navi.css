@@ -5,6 +5,6 @@ nav ul li{display: inline-block; margin: 10px 20px;}
 /* nav a와 같은 코드이다. */
 nav a:link, a:visited{text-decoration: none; color: #000; padding: 10px;}
 /* focus - 탭키를 눌렀을때 작용 */
-nav a:hover, a:focus{background: lightcoral; color: aliceblue;}
+nav a:hover{background: lightcoral; color: aliceblue;}
 /* :active - 마우스를 클릭했을때 */
 nav a:active{background: lightblue;}

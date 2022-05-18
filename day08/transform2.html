@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>변형 속성</title>
+    <style>
+       
+        .b{width: 150px; height: 80px; background: lightblue;}
+         /* 20도로 이동 */
+        .b:hover{transform: rotate(20deg);}
+        /* x축으로 50px 이동 */
+        .c{
+            width: 150px;
+            height: 80px; 
+            background: lightblue;
+            /* 1초 지연시간 적용 */
+            transition-property: transform, background-color;
+            transition-duration:1s;}
+        .c:hover{transform:translateY(-50px); background: rgb(55, 55, 182); height: 100px;}
+        /* y축으로 1.5배 확대 */
+        .d{width: 150px; height: 80px; background: lightblue; }
+        .d:hover{transform: scaleY(1.5);}
+    </style>
+</head>
+<body>
+    <h2>변형적 개체</h2>
+    <h2>transform: rotate(20deg)</h2>
+    <div class="b">hello World!</div>   
+    <h2>transform: translateX(50px)</h2>
+    <div class="c">hello World!</div>   
+    <h2>transform: scaleY(1.5)</h2>
+    <div class="d">hello World!</div>   
+</body>
+</html>

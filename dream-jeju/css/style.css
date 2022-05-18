@@ -15,9 +15,9 @@ header nav{width: 800px; float: right;}
 /* index 스타일 */
 /* #contents{width: 1000px; margin: 30px auto;} */
 #healing, #activity{margin: 20px;}
-#contents h2{margin-bottom: 20px;}
+#contents h2{margin-bottom: 20px; margin-top: 40px;}
 #contents p{line-height: 1.8em;}
-#contents section #a1{margin-bottom: 30px;}
+#contents section #a1{margin-bottom: 40px;}
 #healing img, #activity img{float: left; margin-right: 30px; border-radius: 20px;}
 #healing, #activity{height: 300px;}
 #sightseeing ul li{margin: 10px 30px;}
@@ -49,4 +49,8 @@ footer{width: 1000px; margin: 30px auto; border-top: 2px solid #222;}
 #tb1_board thead{background: #eee;}
 
 
-
+/* aboutme 스타일 */
+#profile h1{text-align: center;}
+#intro{height: 300px;}
+#career{height: 300px;}
+#skill{height: 300px;}

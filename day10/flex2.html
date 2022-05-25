@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charseet="utf-8">
+        <meta name="viewport" contents="width=devic-width, initial-scale=1.0">
+    <title>display : flex 속성</title>
+    <style>
+        #wrap{width: 100%; border: 1px solid #000; display: flex;
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            /* 시작과 끝점에서 동일한 간격으로 배치 */
+            /* justify-content: space-between; */
+            /* 축에 동일한 간격으로 배치 */
+            justify-content: space-around;
+        }
+        .box{width: 80px; background: #000; padding: 5px 20px; margin: 5px;}
+        p{color: white; text-align: center;}
+    </style>
+</head>
+<body>
+    <div>
+        <div id="wrap">
+            <div class="box"><p>1</p></div>
+            <div class="box"><p>2</p></div>
+            <div class="box"><p>3</p></div>
+            <div class="box"><p>4</p></div>
+            <div class="box"><p>5</p></div>
+            <div class="box"><p>6</p></div>
+        </div>
+    </div>        
+</body>
+</html>
